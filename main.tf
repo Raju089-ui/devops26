@@ -10,7 +10,3 @@ terraform {
 provider "azurerm" {
   # Configuration options
 }
-resource "azurerm_resource_group" "dev26" {
-  name     = "dev26"
-  location = "West Europe"
-}
